@@ -89,6 +89,32 @@ http://lifeinsys.com
 /* 1.1. single IMG BACKGROUND */
 .bg-img-SINGLE {
     background-image: url(../../resources/img/background/aur.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+}
+.maClass{
+
+    background-color: #000;
+}
+
+.modal-content1
+
+{
+
+    background-color: rgba(17, 17, 17, 0.466);
+    color: white;
+}
+
+
+.img-thumbnail {
+
+    box-shadow: 0px 0px 5px rgb(7, 7, 7);
 }
 
 .bg-img-SINGLE-WAVE {
@@ -155,27 +181,77 @@ http://lifeinsys.com
 
 /* 1.6. projects gallery IMG BACKGROUND */
 .projects-img-1 {
-    background-image: url(../../resources/img/background/1.webp);
+    background-image: url(../../resources/img/grue/10.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
 }
 
-.projects-img-2 {
-    background-image: url(../../resources/img/background/2.webp);
+.description{
+
+    background-color: rgba(0, 0, 0, 0.699);
+    border:1px solid rgba(255, 0, 0, 0.842);
+    
 }
+
+
+
+
+.projects-img-2 {
+    background-image: url(../../resources/img/silhouettes/1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+
 
 .projects-img-3 {
     background-image: url(../../resources/img/background/3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    
 }
 
 .projects-img-4 {
     background-image: url(../../resources/img/background/4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .projects-img-5 {
     background-image: url(../../resources/img/background/prom.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .projects-img-6 {
     background-image: url(../../resources/img/background/brest.webp);
+
 }
 
 .projects-img-7 {
@@ -184,7 +260,12 @@ http://lifeinsys.com
 
 .projects-img-8 {
     background-image: url(../../resources/img/background/8.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 /* 2. reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -206,6 +287,23 @@ p {
 
     color: #000;
 }
+.dropdown:hover
+{
+
+    background-color:none;
+}
+
+.dropdown-menu
+{
+
+    background-color: #fffdfd28;
+    color: #db0018;
+}
+
+
+
+
+
 
 body {
 }
@@ -318,7 +416,7 @@ p {
     -ms-text-size-adjust: 100%;
 }
 
-#p, .info, #tarifs, table, .blank, b {
+#p, .info, #tarifs, table, .blank, b, #grue1 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.05em;
@@ -331,6 +429,27 @@ p {
     -ms-text-size-adjust: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+}
+
+.grue{
+
+    color: white;
+}
+.modal-header
+{
+
+    border: none;
+}
+
+.close{
+
+    font-size: 30px;
+    color: rgb(238, 0, 0);
+    align-items: center;
+}
+.close:hover{
+
+    color: #fd002a;
 }
 
 td 
@@ -367,6 +486,10 @@ p {
 
     background: #61010c;
     color:white;
+}
+.projects-img-all:hover{
+
+    background-color: #000;
 }
 
 p a,
@@ -1695,6 +1818,7 @@ h2.section-heading:before {
 .img-fullwidth-wrapper {
     position: relative;
     min-height: 550px;
+    box-shadow: 0px 0px 5px white;
 }
 .img-fullwidth.img-fullwidth-bg-dark .post-all:hover {
     background: #fff;
@@ -1725,6 +1849,7 @@ h2.section-heading:before {
 
 .img-fullwidth.img-fullwidth-bg-dark .post-all:hover .post-all-heading, .img-fullwidth.img-fullwidth-bg-dark .post-all:hover p {
     color: #000;
+    box-shadow: 0px 0px 5px white;
 }
 
 @media only screen and (max-width: 995px) {
@@ -2109,7 +2234,8 @@ h4.post-all-heading.post-all-heading-dark:before {
 
 /* 18. projects */
 /* 18.1. projects gallery */
-#projects-img-wrapper {
+.projects-img-1:hover {
+    background-color: #000000;
 }
 
 .image-grid {
@@ -2121,6 +2247,13 @@ h4.post-all-heading.post-all-heading-dark:before {
     width: 25%;
     height: 33vw;
 }
+
+#projects-img-wrapper::hover{
+
+    background-color: #0d0d0d;
+}
+
+
 
 @media all and (min-width: 1920px) {
     .image-grid .item-folio {
